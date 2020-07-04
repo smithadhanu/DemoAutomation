@@ -1,0 +1,121 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-28T11:47:29.566Z",
+        "before": [
+          {
+            "result": {
+              "duration": 17963000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.StepsShine.openAppln()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "apply shine data creation scenario",
+        "description": "",
+        "id": "apply-shine-data-creation;apply-shine-data-creation-scenario;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1692000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.StepsShine.closeAppln()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on login page",
+            "match": {
+              "location": "stepdefinitions.StepsShine.user_is_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of page shine",
+            "match": {
+              "location": "stepdefinitions.StepsShine.title_of_page_shine()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 927000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on login link",
+            "match": {
+              "location": "stepdefinitions.StepsShine.click_on_login_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2853000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters \"dhanu.jnv@gmail.com\" and  \"nilgirian\" login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dhanu.jnv@gmail.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"nilgirian\"",
+                  "offset": 39
+                }
+              ],
+              "location": "stepdefinitions.StepsShine.user_enters_and_login(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on home page title",
+            "match": {
+              "location": "stepdefinitions.StepsShine.user_is_on_home_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@uat"
+          }
+        ]
+      }
+    ],
+    "name": "apply shine Data creation",
+    "description": "",
+    "id": "apply-shine-data-creation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/apply.feature",
+    "tags": []
+  }
+]
